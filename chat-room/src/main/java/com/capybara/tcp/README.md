@@ -1,8 +1,4 @@
-# Chat-Room
-
-
-
-# TCP Server-Client Chat Application
+# TCP Server-Client Chat-Room Application
 
 
 
@@ -115,10 +111,12 @@ java TCPClient
 ├── ClientHandler.java   # Handles individual client connections on the server
 ├── TCPClient.java       # The client-side code for connecting and chatting with the server
 ├── TCPServer.java       # The main server code that handles incoming connections and broadcasts messages
-└── README.md            # Project documentation
+└── README.md            # Documentation
 ```
 
-**Future Enhancements**
+
+
+## **Future Enhancements**
 
 ​	1.	**User Authentication**: Add user authentication with usernames and passwords.
 
@@ -126,12 +124,11 @@ java TCPClient
 
 ​	3.	**Message History**: Store and retrieve chat history from a database.
 
-​	4.	**UI-Based Client**: Build a graphical user interface (GUI) using JavaFX or Swing for a better user experience.
-
-	5.	**Encryption**: Add encryption to secure messages sent over the network.
-
+	4.	**UI-Based Client**: Build a graphical user interface (GUI) using JavaFX or Swing for a better user experience.
+ 	5.	**Encryption**: Add encryption to secure messages sent over the network.
 
 
-## **License**
+
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

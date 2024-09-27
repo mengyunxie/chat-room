@@ -1,4 +1,4 @@
-package com.capybara;
+package com.capybara.tcp;
 
 import java.io.*;
 import java.net.Socket;
