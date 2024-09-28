@@ -20,8 +20,8 @@ This project demonstrates both **UDP** and **TCP** client-server communication u
 │   ├── TCPClient.java       # The client-side code for TCP connection and communication
 │   └── TCPServer.java       # The server-side code for handling multiple clients
 ├── udp/                    # Directory for UDP components
-├── UDPClient.java       # The client-side code for sending and receiving UDP packets
-└── UDPServer.java       # The server-side code for receiving and responding to UDP packets
+    ├── UDPClient.java       # The client-side code for sending and receiving UDP packets
+    └── UDPServer.java       # The server-side code for receiving and responding to UDP packets
 ```
 
 - **tcp/**: Contains all components for TCP communication.
@@ -64,8 +64,6 @@ This project demonstrates both **UDP** and **TCP** client-server communication u
 ### **TCP**
 
 ​	•	**Multiclient chat**: Multiple TCP clients can connect to the server and exchange messages.
-
-​	•	**Exit the chat**: Type exit to close the connection between a client and the server.
 
 
 
