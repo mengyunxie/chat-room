@@ -37,7 +37,7 @@ public class UDPClient {
                 datagramSocket.receive(datagramPacket);
 
                 String messageFromServer = new String(datagramPacket.getData(), 0, datagramPacket.getLength());
-                LOGGER.log(Level.INFO,"The server says you said: " + messageFromServer);
+                // LOGGER.log(Level.INFO,"The server says you said: " + messageFromServer);
             } catch (IOException e) {
                 LOGGER.log(Level.SEVERE, "An error occurred during communication", e);
                 break;

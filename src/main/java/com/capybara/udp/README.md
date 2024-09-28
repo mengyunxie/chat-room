@@ -63,7 +63,7 @@ This will prompt you to enter a message. After you send the message, the server 
 
 
 
-## Features**
+## **Features**
 
 - Client-Server Communication: The client sends messages to the server using UDP, and the server responds back.
 - Logging: Logging is implemented using java.util.logging.Logger to track events and errors.
