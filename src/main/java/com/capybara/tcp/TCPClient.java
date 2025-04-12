@@ -51,6 +51,9 @@ public class TCPClient {
                 String msgFromGroupChat;
                 while(socket.isConnected()) {
                     try {
+                        // Check if socket is closed before reading
+                        if (socket.isClosed()) break;
+
                         msgFromGroupChat = bufferedReader.readLine();
                         if(msgFromGroupChat != null) System.out.println(msgFromGroupChat);
                     } catch (IOException e) {
